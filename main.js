@@ -127,7 +127,7 @@ var app = http.createServer(function(request,response){
       })
     });
 
-  } else if(pathname === "/delete_process"){
+  } else if(pathname === "/delete_process"){ //삭제
     var body = '';
     request.on('data', function(data){
       body += data;
